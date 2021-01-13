@@ -155,7 +155,8 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    //background-image: url('../img/header.jpg');
+    background-image: url('../img/header_oils.jpg');
     text-align: center;
     color: white;
     .header-content {
@@ -259,11 +260,11 @@ header {
             }
         }
     }
-    &:hover {
+    /*&:hover {
         .portfolio-box-caption {
             opacity: 1;
         }
-    }
+    }*/
     @media (min-width: 768px) {
         .portfolio-box-caption {
             .portfolio-box-caption-content {
